@@ -1,0 +1,55 @@
+/*
+ * Programming Quiz: Back to School (3-9)
+ */
+
+// change the value of `education` to test your code
+var education = "a high school diploma";
+
+// set the value of this based on a person's education
+var salary = "35,256";
+
+// your code goes here
+
+switch (education)
+
+{
+  case 1: "25,636";
+    output += "no high school diploma"; {
+    console.log(output);
+}
+  break;
+  case 2:  "35,256" ;
+    output +=  "a high school diploma";{
+    console.log(output);
+}
+  break;
+  case 3:  "41,496," ;
+    output += "an Associate's degree"; {
+    console.log(output);
+    }
+  break;
+  case 4: "59,124" ;
+   output += "a Bachelor's degree"; {
+   console.log(output);
+   }
+  break;
+  case 5: "69,732" ;
+   output += "a Master's degree"; {
+   console.log(output);
+   }
+  break;
+  case 6: "89,960" ;
+   output += "a Professional degree"; {
+   console.log(output);
+   }
+  break;
+  case 7: "84,396" ;
+   output += "a Doctoral degree"; {
+   console.log(output);
+   }
+  break;
+}
+console.log("In 2015, a person with " + education + " earned an average of $" + salary.toLocaleString("en-US") + "/" + "year" + "."
+);
+
+
